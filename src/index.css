@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --secondary-1000: #334031;
+  --secondary-900: #456740;
+  --secondary-800: #4d7448;
+  --secondary-700: #568150;
+  --secondary-600: #789a73;
+  --secondary-500: #9ab396;
+  --secondary-400: #abc0a8;
+  --secondary-300: #bbcdb9;
+  --secondary-200: #ccd9cb;
+  --secondary-100: #dde6dc;
+  --secondary-50: #eef2ee;
+  --price-1: #8cceab;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #3f3f3f;
+}
+@import "~antd/dist/antd.css";
